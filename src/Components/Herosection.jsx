@@ -15,7 +15,7 @@ const HeroSection = () => {
     { title: "Card 6", description: "Description 6" },
   ];
   return (
-    <div className="hero-section text-black z-0 font-custom overflow-x-hidden justify-center items-center align-middle container mx-auto px-4 overflow-y-hidden lg:px-16 2xl:px-10">
+    <div className="hero-section text-black z-0 font-custom overflow-x-hidden justify-center items-center align-middle container mx-auto px-4 overflow-y-hidden lg:px-16 2xl:px-7">
       <h1 className="w-full text-neutral-900 text-3xl font-bold font-['Plus Jakarta Sans'] leading-10 2xl:text-3xl w-full overflow-y-hidden lg:text-3xl">DISCOVER THE EASE OF LEARNING</h1>
       <p className="w-full text-2xl font-medium mt-3 lg:w-full lg:text-neutral-900 2xl:text-2xl lg:font-semibold font-['Plus Jakarta Sans'] 2xl:tracking-[0.4rem] lg:tracking-[0.4rem] lg:text-2xl">
         ONLINE WITH
@@ -32,7 +32,7 @@ const HeroSection = () => {
           <a href="#Learn">Learn More</a>
         </button>
       </div>
-      <div className="float-right hidden lg:block -mt-[22.5rem] h-full z-40 absolute ml-[60rem] lg:ml-[45rem] lg:-mt-[20rem]">
+      <div className="float-right hidden lg:block -mt-[22.5rem] h-full z-40 absolute ml-[60rem] lg:ml-[45rem] lg:-mt-[20rem] 2xl:ml-[60rem] 2xl:-mt-[20rem]">
         <img className="lg:w-[95%]" src={Hero}></img>
       </div>
       <img id="Learn" className="mt-[4rem] mb-[32px] flex items-center align-middle justify-center container mx-auto 2xl:w-[88%] 2xl:mt-[15rem] lg:w-[88%] lg:mt-[9rem]" src={Component}></img>
