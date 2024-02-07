@@ -15,20 +15,20 @@ const HeroSection = () => {
     { title: "Card 6", description: "Description 6" },
   ];
   return (
-    <div className="hero-section text-black z-0 font-custom overflow-x-hidden justify-center items-center align-middle container mx-auto px-4 overflow-y-hidden lg:px-16 2xl:px-7">
-      <h1 className="w-full text-neutral-900 text-3xl font-bold font-['Plus Jakarta Sans'] leading-10 2xl:text-3xl w-full overflow-y-hidden lg:text-3xl">DISCOVER THE EASE OF LEARNING</h1>
-      <p className="w-full text-2xl font-medium mt-3 lg:w-full lg:text-neutral-900 2xl:text-2xl lg:font-semibold font-['Plus Jakarta Sans'] 2xl:tracking-[0.4rem] lg:tracking-[0.4rem] lg:text-2xl">
+    <div className="hero-section text-black z-0 font-custom overflow-x-hidden justify-center items-center align-middle container mx-auto px-4 overflow-y-hidden lg:px-16 2xl:px-7 lg:font-custom">
+      <h1 className="w-full text-neutral-900 text-3xl font-bold leading-10 2xl:text-4xl overflow-y-hidden lg:text-4xl">DISCOVER THE EASE OF LEARNING</h1>
+      <p className="w-full text-2xl font-medium mt-3 lg:w-full lg:text-neutral-900 2xl:text-3xl lg:font-semibold 2xl:tracking-[0.4rem] lg:tracking-[0.4rem] lg:text-3xl">
         ONLINE WITH
         <span className="text-indigo-600"> WOLU</span>
         <span className="text-yellow-500"> CLASSROOM</span>
       </p>
 
-      <p className="w-[350px] text-neutral-900 text-lg font-normal font-['Plus Jakarta Sans'] mt-3 lg:w-full lg:mt-10 2xl:w-full 2xl:mt-10">Simple. powerful. and fast—the key to a highly efficient online learning experience.</p>
+      <p className="w-[350px] text-neutral-900 text-lg font-normal mt-3 lg:w-full lg:mt-10 2xl:w-full 2xl:mt-10">Simple. powerful. and fast—the key to a highly efficient online learning experience.</p>
       <div className="lg:flex mt-5 lg:gap-5">
-        <button className="bg-indigo-600 text-white w-full py-4 text-sm font-medium font-['Plus Jakarta Sans'] mt-3 rounded-md hover:bg-indigo-700 transition-all 2xl:h-fit 2xl:mt-10 2xl:w-56 lg:h-fit lg:mt-10 lg:w-56">
+        <button className="bg-indigo-600 text-white w-full py-4 text-sm font-medium mt-3 rounded-md hover:bg-indigo-700 transition-all 2xl:h-fit 2xl:mt-10 2xl:w-56 lg:h-fit lg:mt-10 lg:w-56">
           <a>Get Started</a>
         </button>
-        <button className="bg-white text-indigo-600 border-[0.5px] border-solid border-indigo-600 w-full py-4 text-sm font-medium font-['Plus Jakarta Sans'] mt-3 rounded-md hover:bg-indigo-600 hover:text-white transition-all 2xl:h-fit 2xl:mt-10 2xl:w-56 lg:h-fit lg:mt-10 lg:w-56">
+        <button className="bg-white text-indigo-600 border-[0.5px] border-solid border-indigo-600 w-full py-4 text-sm font-medium mt-3 rounded-md hover:bg-indigo-600 hover:text-white transition-all 2xl:h-fit 2xl:mt-10 2xl:w-56 lg:h-fit lg:mt-10 lg:w-56">
           <a href="#Learn">Learn More</a>
         </button>
       </div>
