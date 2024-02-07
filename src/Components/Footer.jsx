@@ -10,7 +10,7 @@ const Footer = () => {
         </h2>
       </div>
 
-      <div className="flex items-center justify-center container mx-auto mb-4 gap-7 mt-14 lg:gap-48 lg:ml-20 2xl:gap-60">
+      <div className="flex items-center justify-center container mx-auto mb-4 gap-7 mt-14 lg:gap-48 lg:ml-20 2xl:gap-60 2xl:ml-48">
         <nav className="text-sm font-semibold lg:text-xl">
           Menu
           <ul className="mt-3 text-sm font-normal lg:text-lg">
@@ -60,9 +60,9 @@ const Footer = () => {
         </div>
         <div className="h-16 w-[1.5px] bg-indigo-600 mr-2 ml-2 lg:float-start lg:-ml-24 lg:hidden lg:-mt-56"></div>
       </div>
-      <p className="text-xs text-center w-40 lg:text-base lg:text-left float-end -mt-12 mr-5 2xl:float-start 2xl:-mt-24 lg:float-start lg:-mt-28 ml-20">Enjoy your learning with our service</p>
+      <p className="text-xs text-center w-40 lg:text-base lg:text-left float-end -mt-12 mr-5 2xl:float-start 2xl:-mt-28 lg:float-start lg:-mt-28 ml-20">Enjoy your learning with our service</p>
       <div className="text-center mt-16 -mb-2">
-        <p className="text-xs font-semibold">Company&copy; 2024 Wolu Classroom. All Rights Reserved.</p>
+        <p className="text-xs font-semibold lg:text-base 2xl:text-base">Company&copy; 2024 Wolu Classroom. All Rights Reserved.</p>
       </div>
     </footer>
   );
